@@ -26,7 +26,7 @@ public class User {
     private int age;
     @Column
     private String email;
-
+//heheda wojiu lai wanyiadi
     @Override
     public String toString() {
         return "User{" +
