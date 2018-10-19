@@ -25,6 +25,18 @@ public class User {
     @Column
     private String email;
 
+    @Override
+    public String toString() {
+        return "User{" +
+                "id=" + id +
+                ", username='" + username + '\'' +
+                ", password='" + password + '\'' +
+                ", sex='" + sex + '\'' +
+                ", age=" + age +
+                ", email='" + email + '\'' +
+                '}';
+    }
+
     public Integer getId() {
         return id;
     }
