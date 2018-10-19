@@ -24,10 +24,9 @@ public class UserController {
     @Autowired
     UserDao userDao;
 
-
     @RequestMapping("/findAll")
     public List<User> findAll() throws JsonProcessingException {
-
+        System.out.println("testfindAll");
         List<User> users = userDao.findAll();
 
         return users;
