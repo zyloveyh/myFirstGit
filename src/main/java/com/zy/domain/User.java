@@ -11,8 +11,6 @@ import javax.persistence.*;
 @Entity
 @Table(name = "user")
 public class User {
-	//soji fasdlkfjaldsjfakdf
-	//vasdva
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Integer id;
@@ -26,7 +24,6 @@ public class User {
     private int age;
     @Column
     private String email;
-//heheda wojiu lai wanyiadi
     @Override
     public String toString() {
         return "User{" +
